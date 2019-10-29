@@ -1,0 +1,23 @@
+// Place all the styles related to the Physicians controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.show_tables {
+    border-collapse: collapse;
+    background-color:lightblue;
+    margin-bottom: 10px;
+    text-align: left;
+ }
+ .show_tables td {
+    text-align: left;
+    border: 1px solid black;
+    padding: 3px;
+ }
+ .show_tables th {
+    font-weight: bold;
+    background-color: white;
+    border: 1px solid black;
+    padding: 3px;
+ }
+ .show_tables tr:nth-child(even) {
+    background-color: lightblue;
+ }
